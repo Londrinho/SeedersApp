@@ -2,6 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="TitleFragment"
+            type="com.jimmy.seedersapp.TitleFragment" />
+    </data>
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -41,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="94dp"
         android:backgroundTint="@color/black"
+        android:onClick="@{() -> TitleFragment.goToAboutScreen()}"
         android:text="@string/enter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

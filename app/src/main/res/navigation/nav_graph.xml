@@ -9,7 +9,11 @@
         android:id="@+id/titleFragment"
         android:name="com.jimmy.seedersapp.TitleFragment"
         android:label="@string/home"
-        tools:layout="@layout/fragment_title" />
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
     <fragment
         android:id="@+id/testerFragment"
         android:name="com.jimmy.seedersapp.TesterFragment"
