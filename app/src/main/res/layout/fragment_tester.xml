@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesterFragment">
+
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/question_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="@string/first_question"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/digital_marketing_text" />
+
+    <TextView
+        android:id="@+id/question_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/second_question"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yes_btn_q1" />
+
+    <TextView
+        android:id="@+id/question_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="@string/third_question"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yes_btn_q2" />
+
+    <TextView
+        android:id="@+id/digital_marketing_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/digital_marketing_health_check"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_image" />
+
+    <Button
+        android:id="@+id/yes_btn_q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:backgroundTint="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/question_one"
+        app:layout_constraintTop_toBottomOf="@+id/question_one" />
+
+    <Button
+        android:id="@+id/no_btn_q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:text="@string/no"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/question_two"
+        app:layout_constraintTop_toBottomOf="@+id/question_one" />
+
+    <Button
+        android:id="@+id/yes_btn_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/yes"
+        android:backgroundTint="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/question_two"
+        app:layout_constraintTop_toBottomOf="@+id/question_two" />
+
+    <Button
+        android:id="@+id/no_btn_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/no"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/question_two"
+        app:layout_constraintTop_toBottomOf="@+id/question_two" />
+
+    <Button
+        android:id="@+id/yes_btn_q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/yes"
+        android:backgroundTint="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/question_three"
+        app:layout_constraintTop_toBottomOf="@+id/question_three" />
+
+    <Button
+        android:id="@+id/no_btn_q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/no"
+        android:backgroundTint="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/yes_btn_q3"
+        app:layout_constraintTop_toBottomOf="@+id/question_three" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/submit"
+        app:layout_constraintStart_toStartOf="@+id/yes_btn_q3"
+        app:layout_constraintTop_toBottomOf="@+id/yes_btn_q3" />
+
+    <TextView
+        android:id="@+id/response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/submit_btn"
+        app:layout_constraintTop_toBottomOf="@+id/submit_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SeedersApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_question">Do you have a backlink building strategy?</string>
+    <string name="second_question">Do you have a SEO strategy?</string>
+    <string name="third_question">Do you have a content marketing strategy?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter">ENTER</string>
+    <string name="international_link_building_agency">INTERNATIONAL LINK \nBUILDING AGENCY.</string>
+    <string name="digital_marketing_health_check">Digital Marketing Health Check</string>
+    <string name="if_yes_to_backlink_question">That\'s great you have a backlink strategy. Trust us to make it better.</string>
+    <string name="if_no_to_backlink_question">An effective backlink strategy is fundamental for any business. Let us show you how to implement one.</string>
+    <string name="if_yes_to_seo_question">You have an SEO strategy. Let\'s make it make it an amazing one.</string>
+    <string name="if_no_to_seo_question">An SEO strategy is extremely important increase you search rankings on Google. We\'re experts in this area who can help.</string>
+    <string name="if_yes_to_content_question">You\'re on the right road in having a content marketing plan. This is one of our specialist areas that can help your business.</string>
+    <string name="if_no_to_content_question">A creative and innovative content plan is essential for increasing interest in your site. Contact us and we\'ll help you creative one</string>
+</resources>
