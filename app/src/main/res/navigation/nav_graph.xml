@@ -31,7 +31,7 @@
     <fragment
         android:id="@+id/responseFragment"
         android:name="com.jimmy.seedersapp.ResponseFragment"
-        android:label="fragment_response"
+        android:label="@string/result"
         tools:layout="@layout/fragment_response" />
     <fragment
         android:id="@+id/contactFragment"
