@@ -2,8 +2,8 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/item_image"
     android:layout_width="match_parent"
-    android:layout_height="194dp"
+    android:layout_height="900dp"
     android:importantForAccessibility="no"
-    android:scaleType="centerCrop">
+    android:scaleType="fitXY">
 
 </ImageView>

@@ -7,8 +7,11 @@
     <string name="third_question">Do you have a content marketing strategy?</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="home">HOME</string>
     <string name="submit">SUBMIT</string>
     <string name="enter">ENTER</string>
+    <string name="dm_health_checker">DM HEALTH CHECKER</string>
+    <string name="about_seeders">ABOUT SEEDERS</string>
     <string name="international_link_building_agency">INTERNATIONAL LINK \nBUILDING AGENCY.</string>
     <string name="digital_marketing_health_check">Digital Marketing Health Check</string>
     <string name="if_yes_to_backlink_question">That\'s great you have a backlink strategy. Trust us to make it better.</string>

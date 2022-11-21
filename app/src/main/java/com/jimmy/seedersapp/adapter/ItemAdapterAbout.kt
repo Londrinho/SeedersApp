@@ -6,10 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.jimmy.seedersapp.AboutFragment
 import com.jimmy.seedersapp.R
 import com.jimmy.seedersapp.model.About
 
-class ItemAdapterAbout (private val context: Context, private val dataset: List<About>) : RecyclerView.Adapter<ItemAdapterAbout.ItemViewHolder>() {
+class ItemAdapterAbout(private val context: AboutFragment, private val dataset: List<About>) : RecyclerView.Adapter<ItemAdapterAbout.ItemViewHolder>() {
 
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view){
         val imageView: ImageView = view.findViewById(R.id.item_image)
