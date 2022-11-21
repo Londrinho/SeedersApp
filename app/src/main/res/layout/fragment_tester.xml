@@ -3,6 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <variable
+            name="testerFragment"
+            type="com.jimmy.seedersapp.TesterFragment" />
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -67,12 +73,11 @@
             android:layout_marginTop="16dp"
             android:text="@string/digital_marketing_health_check"
             android:textAlignment="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.524"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/logo_image" />
+            app:layout_constraintTop_toBottomOf="@+id/logo_image"
+            style="@style/TitleStyle" />
 
         <Button
             android:id="@+id/yes_btn_q1"
@@ -157,6 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="52dp"
             android:layout_marginEnd="52dp"
+            android:onClick="@{() -> testerFragment.goToResultScreen()}"
             android:layout_marginBottom="33dp"
             android:backgroundTint="@color/black"
             android:text="@string/submit"

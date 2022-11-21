@@ -18,10 +18,19 @@
         android:id="@+id/testerFragment"
         android:name="com.jimmy.seedersapp.TesterFragment"
         android:label="@string/dm_health_checker"
-        tools:layout="@layout/fragment_tester" />
+        tools:layout="@layout/fragment_tester" >
+        <action
+            android:id="@+id/action_testerFragment_to_responseFragment"
+            app:destination="@id/responseFragment" />
+    </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.jimmy.seedersapp.AboutFragment"
         android:label="@string/about_seeders"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/responseFragment"
+        android:name="com.jimmy.seedersapp.ResponseFragment"
+        android:label="fragment_response"
+        tools:layout="@layout/fragment_response" />
 </navigation>
