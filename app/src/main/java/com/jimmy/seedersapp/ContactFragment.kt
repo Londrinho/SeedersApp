@@ -6,22 +6,20 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.jimmy.seedersapp.databinding.FragmentResponseBinding
+import com.jimmy.seedersapp.databinding.FragmentContactBinding
 
 
-class ResponseFragment : Fragment() {
+class ContactFragment : Fragment() {
 
-    private lateinit var binding: FragmentResponseBinding
-
+    private lateinit var binding: FragmentContactBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_response, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_contact, container, false)
 
         return binding.root
     }
-
 
 }

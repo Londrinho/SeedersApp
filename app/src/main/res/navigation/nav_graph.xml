@@ -33,4 +33,9 @@
         android:name="com.jimmy.seedersapp.ResponseFragment"
         android:label="fragment_response"
         tools:layout="@layout/fragment_response" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.jimmy.seedersapp.ContactFragment"
+        android:label="@string/contact"
+        tools:layout="@layout/fragment_contact" />
 </navigation>

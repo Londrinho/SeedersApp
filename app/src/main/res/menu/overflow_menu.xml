@@ -10,4 +10,7 @@
     <item
         android:id="@+id/testerFragment"
         android:title="@string/dm_health_checker" />
+    <item
+        android:id="@+id/contactFragment"
+        android:title="@string/contact" />
 </menu>
